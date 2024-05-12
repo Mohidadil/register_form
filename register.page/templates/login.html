@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+</head>
+
+
+
+<body>
+
+    <style>
+        body{
+            background-color: black;
+
+        }
+    h1{
+        font-size: 100px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    label{
+        color: white;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    button{
+        color: white;
+        background-color: black;
+        width: 250px;
+        height:30px ;
+        border-color: wheat;
+        stroke: white;
+        
+    }
+    p{
+        color: red;
+        font-size: larger;
+    }
+
+
+
+
+
+
+
+
+    </style>
+    <h1>LOGIN</h1>
+<form action="/login" method="post">
+    <label for="">email</label>
+    <input type="email" name="email">
+    <br><br><br>
+    <label for="">Password</label>
+    <input type="password" name="password">
+    <br><br>
+    <button type="submit">submit</button>
+
+    
+
+</form>
+<p> {{error}} </p>
+    
+</body>
+</html>
